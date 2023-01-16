@@ -8,7 +8,7 @@ import type {
 } from "@elastic/search-ui";
 
 import handleSearchRequest from "./handlers/search";
-import handleAutocompleteRequest from "./handlers/autocomplete";
+// import handleAutocompleteRequest from "./handlers/autocomplete";
 import { CloudHost, PostProcessRequestBodyFn } from "./types";
 
 type ConnectionOptions = {
@@ -61,17 +61,18 @@ class ElasticsearchAPIConnector implements APIConnector {
     state: RequestState,
     queryConfig: AutocompleteQueryConfig
   ): Promise<AutocompleteResponseState> {
-    return handleAutocompleteRequest({
-      state,
-      queryConfig,
-      cloud: this.config.cloud,
-      host: this.config.host,
-      index: this.config.index,
-      connectionOptions: {
-        apiKey: this.config.apiKey,
-        headers: this.config.connectionOptions?.headers
-      }
-    });
+    // return handleAutocompleteRequest({
+    //   state,
+    //   queryConfig,
+    //   cloud: this.config.cloud,
+    //   host: this.config.host,
+    //   index: this.config.index,
+    //   connectionOptions: {
+    //     apiKey: this.config.apiKey,
+    //     headers: this.config.connectionOptions?.headers
+    //   }
+    // });
+    return null;
   }
 }
 

@@ -1628,7 +1628,7 @@
   dependencies:
     tslib "^1.9.3"
 
-"@elastic/elasticsearch-types@npm:@elastic/elasticsearch@^8.2.1", "@elastic/elasticsearch@^8.2.1":
+"@elastic/elasticsearch@^8.2.1":
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/@elastic/elasticsearch/-/elasticsearch-8.2.1.tgz#7fbced5f4e13b50c6ccaaf642e8ba4e8e62b71e1"
   integrity sha512-Kwerd8DfNZdBGgl7fkn+20kXkw1QePB3goTv5QwW9poo2d4VbPE0EChmh6irpXWAGsVSYiKr8x6bh8dH5YdylA==
@@ -3132,14 +3132,12 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
 
-"@searchkit/sdk@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@searchkit/sdk/-/sdk-3.0.0.tgz#63fcec0edcba05d241042b8476be1b86d77142e4"
-  integrity sha512-cWtP5T2+xonPhnwDmda6+RQWvGBg0bigCmZLm+fPPJOymEIug5LQF1s0abcWlwDuXhNnMqiCdk/x2ZUJpt2xTA==
+"@searchkit/api@^3.0.0":
+  version "4.0.0-next.14"
+  resolved "https://registry.yarnpkg.com/@searchkit/api/-/api-4.0.0-next.14.tgz#96b3949b9c8e4abf44dc5cd62ae036d900bbb503"
+  integrity sha512-9TyhBmfzF18L849X0EZfV24v9jYt7Ml6qahMZ4kAPdehNAgHZQQ/1fjHi7Pth3VR6Aq2FoDz5hc+g1yALIrh2w==
   dependencies:
-    "@elastic/elasticsearch-types" "npm:@elastic/elasticsearch@^8.2.1"
-    agentkeepalive "^4.1.3"
-    lodash "^4.17.21"
+    deepmerge "^4.2.2"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
