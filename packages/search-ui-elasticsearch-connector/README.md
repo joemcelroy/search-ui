@@ -1,5 +1,18 @@
 # search-ui-elasticsearch-connector
 
+todo
+
+- rawHit
+- sorting
+- geo facets
+- range facets (numeric + dates + distince) using facet extension
+
+{
+getFilters
+transformResponse
+getAggregation
+}
+
 Part of the [Search UI](https://github.com/elastic/search-ui) project.
 
 This Connector is used to connect Search UI directly to Elasticsearch.
