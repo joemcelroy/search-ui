@@ -21,7 +21,7 @@ import "@elastic/react-search-ui-views/lib/styles/styles.css";
 const connector = new EnginesAPIConnector({
   host: "http://localhost:3002",
   engineName: "puggles",
-  apiKey: "QTJDMHhJVUJENHg5WEJWcXlrWVQ6dXFlcF9QRWdRWHl2Rm9iSndka1Rndw=="
+  apiKey: "cHNKNUNJWUJMTk9US28zSTFXYTA6eXNZNUpZSG1SQ2k5ZmZaU090Tk16QQ=="
 });
 
 const config = {
@@ -146,10 +146,10 @@ export default function App() {
                     <Results titleField="name" shouldTrackClickThrough={true} />
                   }
                   bodyHeader={
-                    <React.Fragment>
+                    <>
                       {wasSearched && <PagingInfo />}
                       {wasSearched && <ResultsPerPage />}
-                    </React.Fragment>
+                    </>
                   }
                   bodyFooter={<Paging />}
                 />
